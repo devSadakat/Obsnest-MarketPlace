@@ -12,6 +12,7 @@ import ObsnestSecret from './ObsnestSecret';
 import AllUsers from '../pages/DashBoard/AllUsers';
 import AdminBoard from '../pages/DashBoard/AdminBoard/AdminBoard';
 import Productmanagement from '../pages/DashBoard/Productmanagement';
+import Payments from '../pages/DashBoard/AdminBoard/Payments';
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: 'productmanag',
         element: <Productmanagement></Productmanagement>
+      },
+      {
+        path: 'payments',
+        element: <Payments></Payments>
       }
     ]
   },

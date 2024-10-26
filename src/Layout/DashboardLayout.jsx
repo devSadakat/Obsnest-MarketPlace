@@ -28,7 +28,7 @@ const DashboardLayout = () => {
                                     <li><Link to="adminboard">Admin Home</Link></li>
                                     <li><Link to="manageusers">Manage User</Link></li>
                                     <li><Link to="productmanag">Manage Product</Link></li>
-                                    <li><Link>Payment History</Link></li>
+                                    <li><Link to="payments">Payment History</Link></li>
                                     <div className="divider"></div>
                                     <li><Link>Menu</Link></li>
                                 </> : <>
