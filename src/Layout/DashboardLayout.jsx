@@ -25,7 +25,7 @@ const DashboardLayout = () => {
                                 isAdmin ? <>
                                     <li><Link to="/">Home</Link></li>
                                     <div className="divider"></div>
-                                    <li><Link>Admin Home</Link></li>
+                                    <li><Link to="adminboard">Admin Home</Link></li>
                                     <li><Link to="manageusers">Manage User</Link></li>
                                     <li><Link>Manage Product</Link></li>
                                     <li><Link>Payment History</Link></li>

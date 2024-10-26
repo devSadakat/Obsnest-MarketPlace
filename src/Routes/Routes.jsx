@@ -10,6 +10,7 @@ import LoginLayout from '../Layout/LoginLayout';
 import Product from '../pages/Product/Product';
 import ObsnestSecret from './ObsnestSecret';
 import AllUsers from '../pages/DashBoard/AllUsers';
+import AdminBoard from '../pages/DashBoard/AdminBoard/AdminBoard';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
     path: 'dashboard',
     element: <ObsnestSecret><DashboardLayout></DashboardLayout></ObsnestSecret>,
     children: [
+      {
+        path: 'adminboard',
+        element: <AdminBoard></AdminBoard>
+      },
       {
         path: 'mycart',
         element: <MyCart></MyCart>
