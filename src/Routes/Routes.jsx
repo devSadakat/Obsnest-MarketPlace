@@ -11,6 +11,7 @@ import Product from '../pages/Product/Product';
 import ObsnestSecret from './ObsnestSecret';
 import AllUsers from '../pages/DashBoard/AllUsers';
 import AdminBoard from '../pages/DashBoard/AdminBoard/AdminBoard';
+import Productmanagement from '../pages/DashBoard/Productmanagement';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: 'manageusers',
         element: <AllUsers></AllUsers>
+      },
+      {
+        path: 'productmanag',
+        element: <Productmanagement></Productmanagement>
       }
     ]
   },
