@@ -7,8 +7,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 const Login = () => {
     // console.log(logError);
 
-    const { login } = useContext(AuthContext)
-    const { googleSignIn } = useContext(AuthContext);
+        const { login } = useContext(AuthContext)
+        const { googleSignIn } = useContext(AuthContext);
 
     const navigate = useNavigate();
     const location = useLocation();
